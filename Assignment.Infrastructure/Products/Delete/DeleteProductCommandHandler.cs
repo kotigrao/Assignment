@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Assignment.Domain.Products;
 using Assignment.Infrastructure.Data;
+using Assignment.Domain.Entities.Products;
 
 namespace Assignment.Infrastructure.Products.Delete
 {
@@ -24,7 +24,7 @@ namespace Assignment.Infrastructure.Products.Delete
             var product = await _productRepository.GetByIdAsync(request.ProductId);
             if(product is null)
             {
-                throw new Domain.Products.ProductNotFoundException(request.ProductId);
+                throw new ProductNotFoundException(request.ProductId);
             }
             _productRepository.Remove(product);
             await _unitOfWork.SaveChangesAsync(cancellationToken);

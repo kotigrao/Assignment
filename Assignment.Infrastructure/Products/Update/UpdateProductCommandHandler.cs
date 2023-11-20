@@ -2,9 +2,8 @@
 using Assignment.Domain.Products;
 using Assignment.Infrastructure.Data;
 using MediatR;
-using Vantlogix.Domain.Products;
 
-namespace Vantlogix.Infrastructure.Products.Update
+namespace Assignment.Infrastructure.Products.Update
 {
     internal sealed class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand>
     {

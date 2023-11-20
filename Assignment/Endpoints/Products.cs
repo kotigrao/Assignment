@@ -5,7 +5,7 @@ using Assignment.Infrastructure.Products.Delete;
 using Assignment.Infrastructure.Products.Get;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Vantlogix.Infrastructure.Products.Update;
+using Assignment.Infrastructure.Products.Update;
 
 namespace Assignment.API.Endpoints
 {

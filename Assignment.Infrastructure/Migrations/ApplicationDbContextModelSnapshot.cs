@@ -42,7 +42,7 @@ namespace Assignment.Infrastructure.Migrations
 
             modelBuilder.Entity("Assignment.Domain.Entities.Products.Product", b =>
                 {
-                    b.OwnsOne("Vantlogix.Domain.Products.Money", "Price", b1 =>
+                    b.OwnsOne("Assignment.Domain.Products.Money", "Price", b1 =>
                         {
                             b1.Property<Guid>("ProductId")
                                 .HasColumnType("uniqueidentifier");

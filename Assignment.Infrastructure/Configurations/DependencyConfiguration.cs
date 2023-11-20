@@ -1,6 +1,6 @@
 ﻿using Assignment.Infrastructure.Repositories.Attribute;
 using Assignment.Infrastructure.Repositories.Category;
-using Assignment.Infrastructure.Repositories.ProductRepo;
+//using Assignment.Infrastructure.Repositories.ProductRepo;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System;

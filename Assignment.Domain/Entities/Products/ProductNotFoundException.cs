@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment.Domain.Products
+namespace Assignment.Domain.Entities.Products
 {
     public sealed class ProductNotFoundException: Exception
     {

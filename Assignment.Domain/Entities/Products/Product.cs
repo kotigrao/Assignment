@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Vantlogix.Domain.Products;
+using Assignment.Domain.Products;
 
 namespace Assignment.Domain.Entities.Products
 {

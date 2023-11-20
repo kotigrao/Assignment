@@ -5,7 +5,9 @@ using Assignment.Infrastructure.Products.Delete;
 using Assignment.Infrastructure.Products.Get;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Vantlogix.Infrastructure.Products.Update;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using Assignment.Infrastructure.Products.Update;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -26,7 +28,7 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet("products")]
-    public async Task<IActionResult> GetProducts()
+    public async Task<ActionResult> GetProducts()
     {
         try
         {

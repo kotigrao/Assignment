@@ -2,7 +2,6 @@
 using Assignment.Domain.Products;
 using Assignment.Infrastructure.Data;
 using MediatR;
-using Vantlogix.Domain.Products;
 
 namespace Assignment.Infrastructure.Products.Create
 {

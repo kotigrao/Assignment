@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Vantlogix.Domain.Products
+namespace Assignment.Domain.Products
 {
     public record Money(string Currency, decimal Amount);
 }

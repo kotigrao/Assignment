@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Assignment.Infrastructure.Repositories.ProductRepo
 {
-    public class ProductRepository: IProductRepository
+    public class ProductRepository : IProductRepository
     {
         private readonly List<Product> _products = new List<Product>();
 

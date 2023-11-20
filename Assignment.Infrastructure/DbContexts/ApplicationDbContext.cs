@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Vantlogix.Domain.Products;
+using Assignment.Domain.Products;
 
 namespace Assignment.Infrastructure.DbContexts
 {
